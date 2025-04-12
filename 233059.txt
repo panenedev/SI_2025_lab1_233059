@@ -1,0 +1,36 @@
+13.git fetch origin
+git checkout 2-find-all-completed-tasks
+
+git fetch origin
+git checkout 4-sort-tasks-by-priority
+
+git fetch origin
+git checkout 7-count-tasks-per-category
+
+15.
+return tasks.stream().filter(Task::isCompleted).collect(Collectors.toList());
+return tasks.stream().sorted(Comparator.comparing(Task::getPriority).reversed()).forEach(System.out::println);
+return tasks.stream().collect(Collectors.groupingBy(Task::getCategory, Collectors.reducing(0, e -> 1, Integer::sum)));
+
+16.
+git commit -m "implement getCompletedTasks"
+
+17.
+git push origin 2-find-all-completed-tasks
+git commit -m "implement sortTasksByPriority"
+git push origin 4-sort-tasks-by-priority
+git commit -m "implement countTasksPerCategory"
+git push origin 7-count-tasks-per-category
+
+22.
+git checkout master
+
+23.
+git pull origin master
+git merge 4-sort-tasks-by-priority
+git push origin master
+
+24. 
+
+
+

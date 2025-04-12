@@ -1,0 +1,18 @@
+*   da8c4f5 (HEAD -> master, origin/master, origin/HEAD) Merge branch '4-sort-tasks-by-priority'
+|\
+| * 4499a67 (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) implement sortTasksByPriority
+* |   8699e92 Merge pull request #11 from panenedev/7-count-tasks-per-category
+|\ \
+| * | 8846b96 (origin/7-count-tasks-per-category, 7-count-tasks-per-category) implement countTasksPerCategory
+| |/
+* |   1605bde Merge pull request #10 from panenedev/2-find-all-completed-tasks
+|\ \
+| |/
+|/|
+| * 6ea5332 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) implement getCompletedTasks
+|/
+| * 4808dc4 (origin/6-find-the-highest-priority-unfinished-task) implement getMostUrgentTasks
+|/
+* b14ea74 Add starter code
+* 5470515 Initial commit
+
